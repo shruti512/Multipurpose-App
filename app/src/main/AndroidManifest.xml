@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.project">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Print" />
+        <activity android:name=".Searchview" />
+        <activity android:name=".Mp" />
+        <activity android:name=".Calc" />
+        <activity android:name=".Camera" />
+        <activity android:name=".Sms" />
+        <activity android:name=".Textspeech" />
+        <activity android:name=".Magic" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".Quiz2" />
+        <activity android:name=".Quiz3" />
+        <activity android:name=".Result" />
+        <activity android:name=".Alarm" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".Reg" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Calcu" />
+        <activity android:name=".Cal" />
+        <activity android:name=".New"></activity>
+    </application>
+
+</manifest>
